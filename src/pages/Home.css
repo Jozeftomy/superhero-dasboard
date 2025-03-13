@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: radial-gradient(circle, #000000, #1a0000);
+    color: white;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.landing-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 15px red;
+}
+
+.landing-title span {
+    color: red;
+    text-shadow: 0 0 20px red;
+}
+
+.landing-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+.button-group {
+    display: flex;
+    gap: 20px;
+}
+
+.landing-btn {
+    background: red;
+    color: black;
+    border: 2px solid red;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 10px red;
+    text-transform: uppercase;
+}
+
+.landing-btn:hover {
+    background: black;
+    color: red;
+    border-color: red;
+    box-shadow: 0 0 20px red;
+}
+
+.signup-btn {
+    background: black;
+    color: red;
+    border: 2px solid red;
+    box-shadow: 0 0 10px red;
+}
+
+.signup-btn:hover {
+    background: red;
+    color: black;
+}
