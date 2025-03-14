@@ -28,7 +28,7 @@ const SignUp = () => {
       redirect: "follow"
     };
 
-    fetch("http://localhost:4000/admin/signup", requestOptions)
+    fetch("https://superhero-backend-460q.onrender.com/admin/signup", requestOptions)
       .then((response) => response.json())
       .then((result) => {
         if (result.data) {

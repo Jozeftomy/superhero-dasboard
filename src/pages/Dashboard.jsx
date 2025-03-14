@@ -28,7 +28,7 @@ const Dashboard = () => {
       }
 
       try {
-        const response = await fetch("http://localhost:4000/admin/complaints", {
+        const response = await fetch("https://superhero-backend-460q.onrender.com/admin/complaints", {
           headers: { Authorization: `Bearer ${token}` },
         });
 
