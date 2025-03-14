@@ -1,3 +1,7 @@
+# Admin Login credentials :
+gmail: josephtomy2001@gmail.com
+password: Joseph1234
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
